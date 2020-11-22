@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ProductRoutingModule } from './product.route';
+import { ProductRoutingModule } from './exemple.route';
 import { ProdutoComponent } from './product/produto.component';
 import { ExempleComponent } from './exemple/exemple.component';
 
