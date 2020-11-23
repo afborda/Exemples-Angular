@@ -39,6 +39,8 @@ speed-measure-plugin*.json
 npm-debug.log
 yarn-error.log
 testem.log
+yarn.lock
+packege-lock.json
 /typings
 
 # System Files
