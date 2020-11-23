@@ -125,6 +125,5 @@ export class CadastroComponent implements OnInit, AfterViewInit {
     if (this.cadastroForm.dirty && this.cadastroForm.valid)
       this.user = Object.assign({}, this.user, this.cadastroForm.value);
     this.formResult = JSON.stringify(this.cadastroForm.value);
-    console.log(this.user);
   }
 }
