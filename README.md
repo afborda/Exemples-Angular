@@ -12,13 +12,15 @@
 1 - Modulos compartilhados <br />
 2 - Modulos de Roteamento <br />
 3 - lazy loading de modulos <br />
-4 - Bootstrap 4 <br />
+4 - Bootstrap 4 (lib) <br />
 5 - FormControls e FormGroups <br />
 6 - FormBuilder API <br />
 7 - Transformando o formulario em Objetos tipados <br />
 8 - Validação customizadas em formulario <br />
 9 - Validação de formularios <br />
 10 - Validação avançada em formulario <br />
+11 - ng-brazil (lib) <br />
+12 - ng2-validation (lib) <br />
 
 ### `O que vamos adicionar ainda?`
 
