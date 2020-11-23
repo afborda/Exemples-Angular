@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CadastroComponent } from './cadastro/cadastro.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 import { HomeComponent } from './navigation/home/home.component';
 
@@ -19,9 +20,14 @@ const routes: Routes = [
     component: FooterComponent,
   },
   {
-    path: 'product',
+    path: 'cadastro',
+    component: CadastroComponent,
+  },
+
+  {
+    path: 'exemple',
     loadChildren: () =>
-      import('./demos/arquitetura-componentes/product.module').then(
+      import('./demos/arquitetura-component/exemple.module').then(
         (m) => m.ProductModule
       ),
   },

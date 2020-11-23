@@ -16,7 +16,31 @@
       <a [routerLink]="['/']" class="nav-link active" href="#"
         >Home <span class="sr-only">(current)</span></a
       >
-      <a [routerLink]="['/product']" class="nav-link" href="#">Produto</a>
+      <div>
+        <div class="dropdown">
+          <button
+            style="color: #fff"
+            class="btn dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            [routerLink]="['/exemple']"
+          >
+            Exemplos
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" [routerLink]="['/exemple/cadastro']"
+              >Cadastro</a
+            >
+            <a class="dropdown-item" [routerLink]="['/exemple/sua_rota']"
+              >Exemplo de Rota</a
+            >
+          </div>
+        </div>
+      </div>
+      <a [routerLink]="['/exemple']" class="nav-link" href="#">Produto</a>
       <a [routerLink]="['/footer']" class="nav-link" href="#">Footer</a>
     </div>
   </div>

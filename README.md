@@ -13,17 +13,17 @@
 2 - Modulos de Roteamento <br />
 3 - lazy loading de modulos <br />
 4 - Bootstrap 4 <br />
+5 - FormControls e FormGroups <br />
+6 - FormBuilder API <br />
+7 - Transformando o formulario em Objetos tipados <br />
+8 - Validação customizadas em formulario <br />
+9 - Validação de formularios <br />
+10 - Validação avançada em formulario <br />
+
 ### `O que vamos adicionar ainda?`
 
 -- - Promises e Observables <br />
 -- - Subscribe e Unsubscribe <br />
--- - FormControls e FormGroups <br />
--- - FormBuilder API <br />
--- - Transformando o formulario em Objetos tipados <br />
--- - Validação de formularios <br />
--- - Validação customizadas em formulario <br />
--- - Validação customizadas em formulario <br />
--- - Validação avançada em formulario <br />
 -- - Gerando Formulario dinâmico <br />
 -- - @input Decorator <br />
 -- - @Output Decorator <br />
